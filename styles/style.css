@@ -5,7 +5,9 @@
     padding: 0px;
     font-family: "Merriweather", serif;
 }
+/* common styles */
 
+/* header banner style */
 .header-container{
     width: 1140px;
     height: 500px;
@@ -34,4 +36,40 @@
     font-size: 24px;
     color: #FFFFFF;
     line-height: 40px;
+}
+
+/* discount section styles */
+.discount-section{
+    width: 720px;
+    margin: 50px auto;
+}
+
+.discount-content{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dis-sec-title{
+    color: #FF0000;
+    font-weight: blod;
+    font-size: 72px;
+    line-height: 150px;
+    
+}
+.dis-sub-title{
+    color: #FF0000;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+.dis-categ-title{
+    color:#070211;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+}
+.dis-img img{
+    width: 100%;
 }
