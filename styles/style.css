@@ -77,9 +77,41 @@
 /* midnight section styles */
 
 .midnight-section{
+    width: 1140px;
+    height: 500px;
+    margin: 50px auto;
+    background-image: url("../images/mid-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.midnight-contents{
-    
+.midnight-container{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+
+    align-items: center;
+    gap: 100px;
+
 }
+ .midnight-column-1{
+    width: 70%;
+
+
+}
+ .midnight-column-2{
+    width: 30%;
+
+
+}
+
+
