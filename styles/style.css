@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: "Merriweather", serif;
 }
+
 /* common styles */
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
 
 /* header banner style */
-.header-container{
+.header-container {
     width: 1140px;
     height: 500px;
     margin: 50px auto;
@@ -19,81 +25,87 @@
     background-image: url("../images/Banner\ Image.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
-.header-content{
+
+.header-content {
     width: 520px;
     text-align: center;
 }
-.header-content h1{
+
+.header-content h1 {
     font-size: 56px;
     color: #FFFFFF;
     line-height: 80px;
 }
-.header-content h3{
+
+.header-content h3 {
     font-size: 24px;
     color: #FFFFFF;
     line-height: 40px;
 }
 
 /* discount section styles */
-.discount-section{
+.discount-section {
     width: 720px;
     margin: 50px auto;
 }
 
-.discount-content{
+.discount-content {
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.dis-sec-title{
+
+.dis-sec-title {
     color: #FF0000;
     font-weight: blod;
     font-size: 72px;
     line-height: 150px;
-    
+
 }
-.dis-sub-title{
+
+.dis-sub-title {
     color: #FF0000;
     font-size: 18px;
     font-weight: 400;
     word-spacing: 5px;
 }
-.dis-categ-title{
-    color:#070211;
+
+.dis-categ-title {
+    color: #070211;
     font-size: 36px;
     font-weight: bold;
     line-height: 80px;
 }
-.dis-img img{
+
+.dis-img img {
     width: 100%;
 }
 
 /* midnight section styles */
 
-.midnight-section{
-    width: 1140px;
+.midnight-section {
+
     height: 500px;
     margin: 50px auto;
     background-image: url("../images/mid-banner.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.midnight-container{
+.midnight-container {
     width: 90%;
     margin: 0 auto;
     color: white;
@@ -103,26 +115,30 @@
     gap: 100px;
 
 }
- .midnight-column-1{
+
+.midnight-column-1 {
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap:25px;
+    gap: 25px;
 
 }
- .midnight-column-1 h1{
+
+.midnight-column-1 h1 {
     font-size: 56px;
     line-height: 78px;
     letter-spacing: 12px;
 }
- .midnight-column-1 p{
+
+.midnight-column-1 p {
     font-size: 14px;
     line-height: 22px;
     color: rgba(179, 177, 177, 0.445);
 
 }
- .midnight-column-1 .col-1-btn a{
+
+.midnight-column-1 .col-1-btn a {
     padding: 18px 22px;
     color: white;
     text-decoration: none;
@@ -130,8 +146,43 @@
     font-weight: 600;
 
 }
- .midnight-column-2{
+
+.midnight-column-2 {
     width: 30%;
 }
+
 /* midnight styles end */
 
+/* schedule section styles start */
+.schedule-container {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.schedule-container h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.schedule-container h3 span {
+    color: red;
+    font-size: 28px;
+}
+
+.schedule-container .schedule-btn button {
+    padding: 16px 20px;
+    background-color: #FF0000;
+    color: white;
+    margin: 30px 0px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* schedule section styles end */
