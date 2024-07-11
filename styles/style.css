@@ -94,7 +94,7 @@
 }
 
 .midnight-container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     color: white;
     display: flex;
@@ -104,14 +104,34 @@
 
 }
  .midnight-column-1{
-    width: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:25px;
 
+}
+ .midnight-column-1 h1{
+    font-size: 56px;
+    line-height: 78px;
+    letter-spacing: 12px;
+}
+ .midnight-column-1 p{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(179, 177, 177, 0.445);
+
+}
+ .midnight-column-1 .col-1-btn a{
+    padding: 18px 22px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
 
 }
  .midnight-column-2{
     width: 30%;
-
-
 }
-
+/* midnight styles end */
 
