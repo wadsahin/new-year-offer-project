@@ -275,9 +275,9 @@ section{
     
 }
 .hday-discount{
+    float: right;
     position: relative;
-    left: 750px;
-    right: 0px;
+    right: 50px;
     bottom: 400px;
 }
 .hday-discount img{
